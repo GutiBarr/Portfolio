@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="https://www.figma.com/design/QjFo6nuQY9oEdTkiEQmSmw/Guia-de-estilo-Portfolio?node-id=0-1&p=f&t=vIMMlsioS24yWMOx-0">Guia de estilos en figma</a>
+    <!-- Header con el boton de menu -->
+    <header>
+        <button class="menu-btn"></button>
+    </header>
+
+    <!-- Seccion sobremi -->
+    <section class="sobremi-section">
+        <div class="sobremi-card">
+            <div class="foto-box"><img src="imagenes/foto-perfil.png" alt="foto perfil"></div>
+            <div class="sobre-mi">Estudiante de segundo año de Desarrollo de Aplicaciones Web (DAW), con interés en la programación y el diseño web.
+                <br></br> Me gustan los juegos de mesa y el deporte, actividades que reflejan mi gusto por los retos, la estrategia y el trabajo en equipo.</div>
+        </div>
+    </section>
+
+    <!-- Seccin proyectos -->
+    <section class="proyectos-section">
+        <div class="proyecto-card">
+            <a href="https://www.figma.com/design/QjFo6nuQY9oEdTkiEQmSmw/Guia-de-estilo-Portfolio?node-id=0-1&p=f&t=E5Y2yKczCt0VbJpd-0" class="proyecto-btn"><img src="imagenes/imagen-figma.png" alt=""></a>
+            <div class="texto-label">Guia de estilo en figma</div>
+        </div>
+        <div class="proyecto-card">
+            <a href="#proyecto2" class="proyecto-btn">Proyecto</a>
+            <div class="texto-label">Texto</div>
+        </div>
+        <div class="proyecto-card">
+            <a href="#proyecto3" class="proyecto-btn">Proyecto</a>
+            <div class="texto-label">Texto</div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer></footer>
 </body>
 </html>
