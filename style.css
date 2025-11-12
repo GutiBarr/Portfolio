@@ -197,6 +197,31 @@ header {
     font-family: var(--font-body);
 }
 
+.github-btn {
+    display: inline-block;
+    background-color: var(--color-tertiary);
+    color: var(--color-primary);
+    text-decoration: none;
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-top: 6px;
+    align-self: center;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/* Boton github */
+.github-btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.github-btn:active {
+    transform: scale(0.95);
+}
+
 footer {
     background-color: var(--color-secondary);
     padding: 30px; 
@@ -224,6 +249,8 @@ footer {
     /*todo el ancho*/
     .proyecto-card {
         max-width: 100%; 
+        flex-direction: column;
+        text-align: center;
     }
 
     .foto-box {
